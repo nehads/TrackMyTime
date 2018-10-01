@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrackMyTime</string>
+    <string name="check_in">Check IN</string>
+    <string name="check_out">Check OUT</string>
+</resources>
