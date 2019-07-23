@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "997715304588",
-    "firebase_url": "https://profound-maker-164513.firebaseio.com",
-    "project_id": "profound-maker-164513",
-    "storage_bucket": "profound-maker-164513.appspot.com"
+    "project_number": "476628076118",
+    "firebase_url": "https://steady-adapter-164310.firebaseio.com",
+    "project_id": "steady-adapter-164310",
+    "storage_bucket": "steady-adapter-164310.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:997715304588:android:74f03a67c19769af",
+        "mobilesdk_app_id": "1:476628076118:android:2e470e4220367dbf",
         "android_client_info": {
-          "package_name": "com.android.dell.trackmytime"
+          "package_name": "com.javac.dell.trackmytime"
         }
       },
       "oauth_client": [
         {
-          "client_id": "997715304588-pgtoq9ocffrchahh8ho21k2k04plsamu.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.android.dell.trackmytime",
-            "certificate_hash": "5b3db8c97d0b4fc443baf0b07f3017e9f4124a9d"
-          }
-        },
-        {
-          "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
+          "client_id": "476628076118-9238pbmvkpeid54b6ssen2riqcli4gu2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBFQ8Q5EbdTw_1jm6-1ztitJuZ8eBAC4JA"
+          "current_key": "AIzaSyBaD2u4bRzb5OJ28_EA7pka2ZsJCTZIavU"
         }
       ],
       "services": {
@@ -37,189 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:997715304588:android:56085297f45bf9f7",
-        "android_client_info": {
-          "package_name": "com.example.dell.kon1"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "997715304588-6k2sqacg59hibji83stmeu6hrkrtk88i.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dell.kon1",
-            "certificate_hash": "d5d1e3740bc453eed10fd5ae63c27a8a497bd758"
-          }
-        },
-        {
-          "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBFQ8Q5EbdTw_1jm6-1ztitJuZ8eBAC4JA"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:997715304588:android:24942e7be0d39ce8",
-        "android_client_info": {
-          "package_name": "com.example.dell.login"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "997715304588-vl1a5hq27484ps23jvnjm9oqn817ehl1.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dell.login",
-            "certificate_hash": "d5d1e3740bc453eed10fd5ae63c27a8a497bd758"
-          }
-        },
-        {
-          "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBFQ8Q5EbdTw_1jm6-1ztitJuZ8eBAC4JA"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:997715304588:android:39ef7024b21fbe8c",
-        "android_client_info": {
-          "package_name": "com.example.dell.upload_del"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "997715304588-ijrmmfpjoklj6q74auntoe62hmtun1op.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.dell.upload_del",
-            "certificate_hash": "80cdc8d4e222bc0b2477e4f472d1335eeffd02a3"
-          }
-        },
-        {
-          "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBFQ8Q5EbdTw_1jm6-1ztitJuZ8eBAC4JA"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:997715304588:android:d7e06895e5ca2740",
-        "android_client_info": {
-          "package_name": "com.wolfsoft.propertyui"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "997715304588-euh4g0oprm41sbqcbqecfvid6rv9reon.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.wolfsoft.propertyui",
-            "certificate_hash": "d5d1e3740bc453eed10fd5ae63c27a8a497bd758"
-          }
-        },
-        {
-          "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBFQ8Q5EbdTw_1jm6-1ztitJuZ8eBAC4JA"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "997715304588-r6emv4b13isun9rksje79100l3f86bip.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

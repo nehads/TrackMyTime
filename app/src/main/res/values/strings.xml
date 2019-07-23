@@ -1,5 +1,22 @@
 <resources>
-    <string name="app_name">TrackMyTime</string>
+    <string name="app_name">TrackTime</string>
     <string name="check_in">Check IN</string>
     <string name="check_out">Check OUT</string>
+
+    <string name="check_in_label">CheckIn:</string>
+    <string name="check_out_label">CheckOut:</string>
+    <string name="hint_name">Enter a name</string>
+    <string name="pas_timings">See past timings</string>
+    <string name="log_out">Log Out</string>
+    <string name="done">DONE</string>
+    <string name="app_title">Track My Time</string>
+    <string name="welcome_msg">Welcome! Let\'s Begin</string>
+    <string name="snack_bar_text">#Please Note: All your data will be lost on logout. \n To continue, click Again to LogOut.</string>
+    <string name="disclaimer">Pick up a good name. As once entered your name/project name cannot be changed.\n Make sure your name is more than 10 characters… \n Happy Tracking!</string>
+    <string name="no_data">You have no records yet, start tracking to view them</string>
+    <string name="_my_records">My Details</string>
+    <string name="no_internet">Looks like you are not connected to the internet! \nPlease connect and retry.</string>
+
+    <!--<string name="error_msg"><![CDATA[This is <font fgcolor= 'red' >bold</font>]]></string>-->
+
 </resources>

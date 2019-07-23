@@ -1,29 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".views.MainActivity"
+    android:background="@color/white">
 
-    <Button
-        android:id="@+id/my_time_in"
-        android:layout_width="300dp"
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/check_in"
-        android:layout_centerInParent="true"
-        android:gravity="center"
+        android:background="@color/colorPrimary">
 
-        />
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Roboto_Regular
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_title"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <!--android:text="@string/app_title"-->
+    </android.support.v7.widget.Toolbar>
 
-    <Button
-        android:id="@+id/my_time_out"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:text="@string/check_out"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:visibility="gone"
-        />
+    <RelativeLayout
+        android:id="@+id/first_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="10dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/track_time_img"
+            android:elevation="2dp"
+            android:layout_above="@+id/enter_name"/>
+
+        <com.javac.dell.trackmytime.customFonts.MyEditText_Lato_Regular
+            android:id="@+id/enter_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="@string/hint_name"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Lato_Regular
+            android:id="@+id/disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enter_name"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/disclaimer"
+            android:textColor="@color/colorPrimary" />
+
+        <com.javac.dell.trackmytime.customFonts.Button_Roboto_Medium
+            android:id="@+id/done"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/disclaimer"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:elevation="20dp"
+            android:background="@drawable/custom_btn"
+            android:text="@string/done" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/every_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone">
+
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Roboto_Regular
+            android:id="@+id/logged_in_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text=""
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:elevation="10dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/custom_name_bar"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/check_btns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+
+            <com.javac.dell.trackmytime.customFonts.Button_Roboto_Medium
+                android:id="@+id/my_time_in"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="20dp"
+                android:textColor="@color/white"
+                android:background="@drawable/custom_btn"
+                android:text="@string/check_in" />
+
+            <com.javac.dell.trackmytime.customFonts.Button_Roboto_Medium
+                android:id="@+id/my_time_out"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="@string/check_out"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:elevation="20dp"
+                android:background="@drawable/custom_btn"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+        <com.javac.dell.trackmytime.customFonts.Button_Roboto_Medium
+            android:id="@+id/see_records"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:elevation="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/custom_btn"
+            android:layout_below="@+id/check_btns"
+            android:layout_centerInParent="true"
+            android:text="@string/pas_timings" />
+
+        <com.javac.dell.trackmytime.customFonts.Button_Roboto_Medium
+            android:id="@+id/log_out"
+            android:layout_width="300dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="wrap_content"
+            android:elevation="20dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/custom_btn_white"
+            android:layout_below="@+id/see_records"
+            android:text="@string/log_out" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

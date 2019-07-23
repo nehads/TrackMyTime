@@ -1,4 +1,4 @@
-package com.android.dell.trackmytime;
+package com.javac.dell.trackmytime;
 
 import org.junit.Test;
 

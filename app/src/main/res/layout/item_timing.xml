@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.javac.dell.trackmytime.customFonts.MyTextView_Roboto_Regular
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="03-May-2018"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ll_label"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/ll_values"
+        app:layout_constraintBottom_toBottomOf="@+id/date">
+
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Lato_Regular
+            android:id="@+id/check_in_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/check_in_label"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:paddingTop="4dp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/date"
+            app:layout_constraintEnd_toStartOf="@id/check_out_label"
+            app:layout_constraintLeft_toLeftOf="@+id/check_out_label"
+            />
+
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Lato_Regular
+            android:id="@+id/check_out_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/check_out_label"
+            android:layout_weight="1"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:paddingTop="4dp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/date"
+            app:layout_constraintTop_toBottomOf="@+id/date"
+            app:layout_constraintStart_toEndOf="@id/check_in_label"
+            app:layout_constraintRight_toRightOf="@+id/check_in_label"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_values"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ll_label"
+        >
+
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Lato_Regular
+            android:id="@+id/check_in_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="09:20am"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:paddingTop="6dp"
+            app:layout_constraintEnd_toStartOf="@id/check_out_label"
+            app:layout_constraintTop_toBottomOf="@+id/check_in_label"
+            app:layout_constraintBottom_toBottomOf="@+id/check_in_label"
+            />
+
+        <com.javac.dell.trackmytime.customFonts.MyTextView_Lato_Regular
+            android:id="@+id/check_out_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="06:00pm"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:paddingTop="6dp"
+            app:layout_constraintStart_toEndOf="@id/check_in_time"
+            app:layout_constraintBottom_toBottomOf="@+id/check_out_label"
+            app:layout_constraintTop_toBottomOf="@id/check_out_label"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
